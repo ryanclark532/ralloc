@@ -3,6 +3,8 @@
 #include <string.h>
 #include <unistd.h>
 
+#include "ralloc.h"
+
 typedef char ALIGN[16];
 
 union header
